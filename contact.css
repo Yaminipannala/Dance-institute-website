@@ -1,0 +1,178 @@
+*{
+    margin: o;
+    padding:0;
+    font-family: 'poppins',sans-serif;
+
+}
+section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+   
+    background: url('contact.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    margin-right: 100px;
+}
+.form-box
+{
+    position:relative;
+    width: 900px;
+    height: 550px;
+    background:transparent;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 25px;
+    
+
+}
+h1{
+    font-size: 2em;
+    font-weight: bold;
+    color:#fff;
+    
+    
+    margin-bottom: 100px;
+    
+}
+.inputbox
+{
+    position:relative;
+    margin:30px 0;
+    width:310px;
+    border-bottom:2px solid gray;
+    bottom:70px;
+    background:black;
+    left: 195px;
+
+}
+.inputbox label{
+    position:absolute;
+    bottom:100%;
+    left:5px;
+    transform: translateY(-50);
+
+    font-size: 1em;
+    pointer-events: none;
+    transition:.5s;
+    color: white;
+
+
+}
+
+.inputbox input{
+    width:100%;
+    height:50px;
+
+    border:2px;
+    outline:none;
+    font-size:1em;
+    padding:0 35px 0 5px;
+    color:black;
+    bottom: 30%;
+    top:50px;
+    background: whitesmoke;
+
+
+}
+.form-box ion-icon
+{
+position:absolute;
+font-size: 2em;
+bottom:10px;
+right:240%;
+color:white;
+;
+}
+.forget
+{
+    margin:-15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display:flex;
+    justify-content: center;
+
+
+}
+.forget label input{
+margin: 3px;
+}
+.forget label a{
+    text-decoration: none;
+    color:#fff;
+
+}
+.forget label a:hover{
+text-decoration: underline;
+}
+.button
+{
+    height:40px;
+    width:50px;
+    border-radius:40px;
+    background:red;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    font-size:1em;
+    font-weight:600;
+    margin-left: 10%;
+    
+}
+.register
+{
+    font-size: .9em;
+    text-align: center;
+    color: #fff;
+    margin: 25px 0 10px;
+
+}
+.register p1
+{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+
+}
+.register p a:hover{
+    text-decoration: underline;
+}
+button{
+    width:30%;
+    height:40px;
+    border-radius: 40px;
+    border:none;
+
+outline:none;
+cursor:pointer;
+font-size: 1em;
+font-weight: 600;
+margin-left: 60%;
+margin-bottom: 10%;
+background-color: goldenrod;
+
+}
+.register p1 a{
+    color: #fff;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a1{
+    color: black;
+}
+li a{
+    font-size: 20px;
+    font-weight:normal ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 55px;
+
+}

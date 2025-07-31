@@ -1,0 +1,10 @@
+.thank-you-message {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90vw; 
+    max-width: 1200px; /* Ensures maximum width on larger screens */
+    box-sizing: border-box; /* Includes padding in width calculation */
+}
